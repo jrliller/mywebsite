@@ -1,0 +1,143 @@
+	@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+* {
+
+	font-family: 'Work Sans', sans-serif;
+	
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	height: 90px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 990px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	width: 200px;
+	height: auto;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+nav ul,
+nav li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav a {
+	display: block;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+	color: #7b7b7bff;
+}
+
+nav .active a,
+nav a:hover {
+	color: #FFFFFF;
+	background-color: #33a3ff;
+}
+
+#banner {
+	display: flex;
+	justify-content: center;
+	background-image: url(/images/foto1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.banner_headline {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.banner_headline h1 {
+	font-size: 35px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #FFFFFF;
+}
+
+.banner_headline h2 {
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	text-shadow: 2px 2px 0px #000;
+	color: #FFFFFF;
+}
+
+.banner_langs {
+	height: 80px;
+	padding-top: 0px;
+	display: flex;
+}
+
+.banner_title {
+	background-color: #FFF;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.lang1, .lang2, .lang3 {
+	font-family: Arial;
+	flex:1;
+}
+
+.lang1 {
+	background-color: #bbc3c3;
+	opacity: 0.7;
+	margin-right: 5px;
+}
+
+.lang2 {
+	background-color: #bbc3c3;
+	opacity: 0.7;
+	margin-right: 5px;
+}
+
+.lang3 {
+	background-color: #bbc3c3;
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
